@@ -42,6 +42,8 @@ export async function promMiddleware(req, res, next) {
         console.log('!!!!');
     }
 
+    const path = req.route?.path;
+
     const labels = {
         path: req.url,
         uri: req.url,

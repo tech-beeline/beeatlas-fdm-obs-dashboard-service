@@ -55,6 +55,26 @@
                                     "operationId": null,
                                     "operation": null,
                                     "order": null
+                                },
+                                {
+                                    "id": 3,
+                                    "userId": 159634,
+                                    "description": "Пояснение к вызову",
+                                    "tcId": null,
+                                    "tcName": null,
+                                    "tcCode": null,
+                                    "productId": 4,
+                                    "productName": "Витрина ФДМ (App)",
+                                    "productAlias": "fdmshowcaseapp",
+                                    "interfaceId": 1663,
+                                    "interfaceName": "API управления бизнес-возможностями",
+                                    "interfaceCode": "capability-api",
+                                    "operationId": 17235,
+                                    "operation": "GET /api/v4/systems/{code}",
+                                    "order": null,
+                                    "latency": 123.0,
+                                    "errorRate": 0.1232,
+                                    "rps": 2
                                 }
                             ]
                         },
@@ -130,7 +150,28 @@
                             "latency": null,
                             "errorRate": null,
                             "rps": null,
-                            "relations": []
+                            "relations": [
+                                {
+                                    "id": 3,
+                                    "userId": 159634,
+                                    "description": "Пояснение к вызову",
+                                    "tcId": null,
+                                    "tcName": null,
+                                    "tcCode": null,
+                                    "productId": 4,
+                                    "productName": "Витрина ФДМ (App)",
+                                    "productAlias": "fdmshowcaseapp",
+                                    "interfaceId": 1663,
+                                    "interfaceName": "API управления бизнес-возможностями",
+                                    "interfaceCode": "capability-api",
+                                    "operationId": 17235,
+                                    "operation": "GET /api/v4/systems/{code}",
+                                    "order": null,
+                                    "latency": 123.0,
+                                    "errorRate": 0.1232,
+                                    "rps": 2
+                                }
+                            ]
                         }
                     ],
                     "target": false,

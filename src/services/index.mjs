@@ -1,1 +1,1 @@
-export { DashboardCjService } from "./dashboard-cj-service.mjs";
+export { DashboardCjService } from "./dashboard-cj-serivce/index.mjs";

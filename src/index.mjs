@@ -5,6 +5,7 @@ import {
     promMiddleware,
     promMetrics
 } from "./middleware/index.mjs";
+
 const API_PORT = process.env.API_PORT ?? 3000;
 
 const app = express();
