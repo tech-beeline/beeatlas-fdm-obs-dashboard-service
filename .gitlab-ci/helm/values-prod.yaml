@@ -1,6 +1,6 @@
 env:
   GRAFANA_URL: https://inside.beeline.ru
-  GRAFANA_ACCESS_TOKEN: "vault:eafdmmart/data/prod/grafana#toten"
+  GRAFANA_ACCESS_TOKEN: "vault:eafdmmart/data/prod/grafana#token"
   E2E_TEMPLATE_URL: https://inside.beeline.ru/d/82vrNvDvk/cj-template?orgId=1
   DEFAULT_METRIC_SOURCE: https://inside.beeline.ru/d/hwzG1EcNz/opensearch-template-api-queries?orgId=1
   E2E_FOLDER: https://inside.beeline.ru/dashboards/f/CuisNDDDz/fdm-cj
