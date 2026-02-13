@@ -5,6 +5,7 @@ env:
   DEFAULT_METRIC_SOURCE: https://inside.beeline.ru/d/hwzG1EcNz/opensearch-template-api-queries?orgId=1
   E2E_FOLDER: https://inside.beeline.ru/dashboards/f/CuisNDDDz/fdm-cj
   NODE_TLS_REJECT_UNAUTHORIZED: '0'
+  API_PORT: '8080'
 
 ingress:
   annotations:
