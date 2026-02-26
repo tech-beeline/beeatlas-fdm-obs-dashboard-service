@@ -1,10 +1,18 @@
 import express from "express"
-import { DASHBOARD_CJ_ROUTER } from "./api/v1/dashboard-cj.mjs";
+import { buildRoutes } from "../fs-router/index..mjs";
+
+
+
+
+
 
 /**
  * 
  * @param {express.Application} app 
  */
-export function addApiRoutes(app) {
-    app.use("/api/v1", DASHBOARD_CJ_ROUTER);
+export async function addApiRoutes(app) {
+
+    const route_info = await buildRoutes(import.meta.dirname);
+    app.use('/', route_info.router);
 }
+

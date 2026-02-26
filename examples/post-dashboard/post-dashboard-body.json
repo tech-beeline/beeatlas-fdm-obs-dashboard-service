@@ -70,7 +70,7 @@
                                     "interfaceName": "API управления бизнес-возможностями",
                                     "interfaceCode": "capability-api",
                                     "operationId": 17235,
-                                    "operation": "GET /api/v4/systems/{code}",
+                                    "operation": "GET /api/v1/product/infra",
                                     "order": null,
                                     "latency": 123.0,
                                     "errorRate": 0.1232,
