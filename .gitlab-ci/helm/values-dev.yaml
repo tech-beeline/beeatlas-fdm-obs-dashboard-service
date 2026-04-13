@@ -6,9 +6,9 @@ env:
   E2E_FOLDER: https://inside.beeline.ru/dashboards/f/CuisNDDDz/fdm-cj
   NODE_TLS_REJECT_UNAUTHORIZED: '0'
   API_PORT: '8080'
-  PRODUCT_SERVICE_URL: https://fdm-products-dev-eafdmmart.apps.yd-m6-kt22.vimpelcom.ru
+  PRODUCT_SERVICE_URL: http://eafdmmart-develop-fdm-products
   CX_SERVICE_HEADER: "{ \"user-roles\": [\"DEFAULT\",\"ADMINISTRATOR\"],\"user-permission\": [\"DESIGN_ARTIFACT\",\"CREATE_ARTIFACT\",\"EDIT_ARTIFACT\",\"DELETE_ARTIFACT\"],\"user-id\": 1, \"user-products-ids\": [1]}"
-  CX_SERVICE_URL: https://cx-backend-dev-eafdmmart.apps.yd-m6-kt22.vimpelcom.ru
+  CX_SERVICE_URL: https://eafdmmart-develop-cx-backend
 
 
 ingress:
