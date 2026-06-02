@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import express from "express"
 import { buildRoutes } from "../fs-router/index..mjs";
 

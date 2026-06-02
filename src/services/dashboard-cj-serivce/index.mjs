@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import { getCjById } from "../../resources/cx-service/index.mjs";
 import { NotImplemented } from "../../utils/errors.mjs";
 import { GrafanaService, ProductService } from "../../resources/index.mjs";

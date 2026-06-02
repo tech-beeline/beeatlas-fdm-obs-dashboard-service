@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import express from 'express';
 import fs from 'fs';
 import path from 'path';

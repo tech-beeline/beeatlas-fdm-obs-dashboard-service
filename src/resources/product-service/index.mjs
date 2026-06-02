@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import { NotImplemented } from "../../utils/errors.mjs";
 import { Container, Product } from "./model.mjs";
 

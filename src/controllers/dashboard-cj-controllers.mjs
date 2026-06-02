@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import Express from "express";
 import { BadRequest, NotImplemented } from "../utils/errors.mjs";
 import { DashboardCjService } from "../services/index.mjs";
