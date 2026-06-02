@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import { NotImplemented } from "../../utils/errors.mjs";
 import { CJDto } from "./model.mjs";
 

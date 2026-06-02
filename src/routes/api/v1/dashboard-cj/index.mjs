@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import express from "express"
 import { arrayProp, jsonContent, objectSchema, stringProp } from "../../../utils.mjs";
 import { DashboardCjService } from "../../../../services/index.mjs";

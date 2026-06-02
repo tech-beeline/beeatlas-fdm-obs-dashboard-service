@@ -1,4 +1,6 @@
-
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 
 export const GRAFANA_URL = process.env.GRAFANA_URL;
 if (!GRAFANA_URL) throw Error('GRAFANA_URL not specified');

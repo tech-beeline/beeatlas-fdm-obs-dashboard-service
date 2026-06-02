@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 export function jsonContent(schema) {
     if (typeof (schema) === "string") {
         schema = { "$ref": `#/components/schemas/${schema}` }

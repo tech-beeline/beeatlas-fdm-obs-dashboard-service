@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import Express from "express";
 
 export async function errorHandler(err, request, response, next) {

@@ -1,3 +1,6 @@
+/*
+ * Copyright (c) 2024 PJSC VimpelCom
+ */
 import expess from 'express'
 import { BadRequest } from "../../../../utils/errors.mjs";
 import { jsonContent, pathParam } from "../../../utils.mjs";
