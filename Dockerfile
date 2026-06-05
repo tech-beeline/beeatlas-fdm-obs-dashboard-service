@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=library/node@sha256:0952d404a44c0c1f10423b7f9a7a373427a2fca5704afe2d46fe152524b8a403
+ARG BASE_IMAGE=library/node:22-alpine
 FROM ${BASE_IMAGE}
 
 WORKDIR /usr/src/app
